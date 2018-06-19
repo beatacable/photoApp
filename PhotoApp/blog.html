@@ -8,8 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- Optional theme -->
-    <link rel="stylesheet" href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css'>
 
       </head>
 
@@ -51,21 +49,4 @@
    body {
      background-color: #FFFAF0;
    }
-    </style>
-
-    <script type='text/javascript'>
-    $(function(){
-        //Initially hide your inactive tabs
-        $('.tab-pane:not(.active)').hide();
-
-        //When a tab is clicked
-        $(".navbar-nav li a").click(function(){
-          //Hide all current tabs and prepare to select the selected one
-          $('.tab-pane').removeClass('active').hide();
-
-          //Displays your current tab
-          $($(this).attr('href')).addClass('active').show();
-        });
-    });
-</script>
-    </html>
+      </html>
